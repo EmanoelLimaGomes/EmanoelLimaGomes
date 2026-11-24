@@ -56,7 +56,7 @@
   &nbsp;
   <a href="https://www.linkedin.com/in/emanoel-gomes-169521379"><img src="./assets/btn-linkedin.svg" width="180" alt="LinkedIn" /></a>
   &nbsp;
-  <a href="mailto:emanoelgomes97003493@gmail.com"><img src="./assets/btn-gmail.svg" width="180" alt="Gmail" /></a>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=emanoelgomes97003493@gmail.com"><img src="./assets/btn-gmail.svg" width="180" alt="Gmail" /></a>
 </p>
 
 <br>

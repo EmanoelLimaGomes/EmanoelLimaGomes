@@ -21,7 +21,7 @@
 
 <br><br>
 
-<img src="./assets/h-arsenal.svg" width="260" alt="Arsenal" />
+<img src="./assets/h-arsenal.svg" width="380" alt="Arsenal" />
 
 <br><br>
 
@@ -34,7 +34,7 @@
 </table>
 
 <p align="center">
-  <img src="./assets/h-contrib.svg" width="320" alt="Contribuições" />
+  <img src="./assets/h-contrib.svg" width="460" alt="Contribuições" />
 </p>
 
 <p align="center">

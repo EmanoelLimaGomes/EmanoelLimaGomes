@@ -45,6 +45,22 @@
   </picture>
 </p>
 
+<br>
+
+<p align="center">
+  <img src="./assets/h-redes.svg" width="460" alt="Redes sociais" />
+</p>
+
+<p align="center">
+  <a href="https://www.instagram.com/emanoel._.gomes/"><img src="./assets/btn-instagram.svg" width="180" alt="Instagram" /></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/emanoel-gomes-169521379"><img src="./assets/btn-linkedin.svg" width="180" alt="LinkedIn" /></a>
+  &nbsp;
+  <a href="mailto:emanoelgomes97003493@gmail.com"><img src="./assets/btn-gmail.svg" width="180" alt="Gmail" /></a>
+</p>
+
+<br>
+
 <p align="center">
   <img src="./assets/divider.svg" width="60%" alt="" />
 </p>

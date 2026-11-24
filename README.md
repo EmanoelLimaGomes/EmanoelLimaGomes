@@ -1,12 +1,12 @@
 <h3>Olá, eu sou Emanoel 🌺</h3>
 
-<img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=600&size=18&duration=3500&pause=800&color=C9A227&vCenter=true&width=460&lines=L%C3%A2mina+de+c%C3%B3digo%2C+flor+escarlate.;Desenvolvedor(a)+Web+%26+Python.;Nunca+conheci+o+bug+que+n%C3%A3o+resolvi." alt="typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=600&size=16&duration=3500&pause=800&color=C9A227&vCenter=true&width=620&lines=L%C3%A2mina+de+c%C3%B3digo%2C+flor+escarlate.;Desenvolvedor(a)+Web+%26+Python.;Nunca+conheci+o+bug+que+n%C3%A3o+resolvi." alt="typing" />
 
 #### 🗡️ Contributions:
 
 <table>
-  <tr>
-    <td width="60%" align="center">
+<tr>
+<td width="60%" align="center">
 
 <br>
 
@@ -36,9 +36,9 @@
 
 <br><br>
 
-    </td>
-    <td width="40%" align="center">
-      <img src="./assets/malenia.svg" width="100%" alt="Malenia" />
-    </td>
-  </tr>
+</td>
+<td width="40%" align="center">
+<img src="./assets/malenia.svg" width="100%" alt="Malenia" />
+</td>
+</tr>
 </table>

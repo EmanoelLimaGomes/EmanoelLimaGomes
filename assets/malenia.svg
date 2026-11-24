@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 520" width="300" height="520">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b0406"/>
+      <stop offset="1" stop-color="#2a0a0e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f3d97a" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#f3d97a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3d97a"/>
+      <stop offset="1" stop-color="#9c7a16"/>
+    </linearGradient>
+    <ellipse id="petal" rx="5" ry="2.4" fill="#e63939"/>
+  </defs>
+
+  <rect width="300" height="520" fill="url(#bg)"/>
+
+  <!-- brilho dourado atrás -->
+  <circle cx="150" cy="160" r="140" fill="url(#glow)">
+    <animate attributeName="r" values="130;150;130" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- manto -->
+  <path d="M112,205 Q150,232 188,205 L240,520 L60,520 Z" fill="#14060a"/>
+  <path d="M112,205 Q150,232 188,205" fill="none" stroke="url(#gold)" stroke-width="3"/>
+
+  <!-- cabelo escarlate -->
+  <g fill="none" stroke-linecap="round">
+    <animateTransform attributeName="transform" type="rotate" values="-2 150 195;2 150 195;-2 150 195" dur="5s" repeatCount="indefinite"/>
+    <path d="M128,190 C100,260 120,330 90,420 S80,500 70,520" stroke="#7a1414" stroke-width="12"/>
+    <path d="M134,196 C112,280 135,350 112,440 S110,500 104,520" stroke="#b31b1b" stroke-width="9"/>
+    <path d="M124,186 C88,240 92,300 60,380 S48,470 40,510" stroke="#b31b1b" stroke-width="7"/>
+    <path d="M172,190 C200,260 180,330 210,420 S220,500 230,520" stroke="#7a1414" stroke-width="12"/>
+    <path d="M166,196 C188,280 165,350 188,440 S190,500 196,520" stroke="#b31b1b" stroke-width="9"/>
+    <path d="M176,186 C212,240 208,300 240,380 S252,470 260,510" stroke="#b31b1b" stroke-width="7"/>
+    <path d="M140,200 C135,280 150,360 140,460" stroke="#e63939" stroke-width="3" opacity="0.7"/>
+    <path d="M160,200 C165,280 150,360 160,460" stroke="#e63939" stroke-width="3" opacity="0.7"/>
+  </g>
+
+  <!-- elmo alado -->
+  <g>
+    <g id="wing" fill="url(#gold)">
+      <path d="M124,160 Q92,140 66,92 Q94,118 106,124 Q84,96 80,62 Q106,102 120,134 Q108,106 110,78 Q124,112 128,148 Z"/>
+    </g>
+    <use href="#wing" transform="translate(300,0) scale(-1,1)"/>
+    <path d="M120,178 Q120,128 150,126 Q180,128 180,178 L174,202 Q150,212 126,202 Z" fill="url(#gold)"/>
+    <path d="M150,128 L150,160" stroke="#9c7a16" stroke-width="2"/>
+    <rect x="131" y="166" width="38" height="5" rx="2" fill="#14060a"/>
+    <rect x="131" y="166" width="38" height="5" rx="2" fill="#e63939" opacity="0">
+      <animate attributeName="opacity" values="0;0.9;0" dur="4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- pétalas caindo -->
+  <g>
+    <g><animateTransform attributeName="transform" type="translate" from="30 -20" to="80 540" dur="9s" begin="0s" repeatCount="indefinite"/><use href="#petal"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3s" repeatCount="indefinite"/></use></g>
+    <g><animateTransform attributeName="transform" type="translate" from="90 -20" to="130 540" dur="11s" begin="-4s" repeatCount="indefinite"/><use href="#petal"><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="4s" repeatCount="indefinite"/></use></g>
+    <g><animateTransform attributeName="transform" type="translate" from="200 -20" to="250 540" dur="8s" begin="-2s" repeatCount="indefinite"/><use href="#petal"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="2.5s" repeatCount="indefinite"/></use></g>
+    <g><animateTransform attributeName="transform" type="translate" from="260 -20" to="290 540" dur="10s" begin="-6s" repeatCount="indefinite"/><use href="#petal"><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="3.5s" repeatCount="indefinite"/></use></g>
+    <g><animateTransform attributeName="transform" type="translate" from="150 -20" to="190 540" dur="12s" begin="-8s" repeatCount="indefinite"/><use href="#petal"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3s" repeatCount="indefinite"/></use></g>
+    <g><animateTransform attributeName="transform" type="translate" from="10 -20" to="40 540" dur="13s" begin="-3s" repeatCount="indefinite"/><use href="#petal"><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="4.5s" repeatCount="indefinite"/></use></g>
+    <g><animateTransform attributeName="transform" type="translate" from="230 -20" to="200 540" dur="9.5s" begin="-7s" repeatCount="indefinite"/><use href="#petal"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="2.8s" repeatCount="indefinite"/></use></g>
+    <g><animateTransform attributeName="transform" type="translate" from="120 -20" to="70 540" dur="10.5s" begin="-1s" repeatCount="indefinite"/><use href="#petal"><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="3.2s" repeatCount="indefinite"/></use></g>
+  </g>
+
+  <!-- flores escarlates no chão -->
+  <g fill="#b31b1b">
+    <circle cx="40" cy="505" r="9"/><circle cx="40" cy="505" r="3" fill="#c9a227"/>
+    <circle cx="262" cy="500" r="11"/><circle cx="262" cy="500" r="3.5" fill="#c9a227"/>
+    <circle cx="150" cy="512" r="7"/><circle cx="150" cy="512" r="2.5" fill="#c9a227"/>
+  </g>
+</svg>
